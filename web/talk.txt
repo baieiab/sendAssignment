@@ -1,0 +1,74 @@
+下面是论坛贴吧jsp代码：tableAbout.jsp
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Blogging
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20090208
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>坛子贴吧</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="individual.jsp">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<!-- end #login -->
+	</div>
+	<!-- end #header -->
+	<div id="logo">
+		<h1><a href="#">校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
+	</div>
+     <br />
+	<!-- end #logo -->
+<!-- end #header-wrapper -->  
+
+<div id="page1">
+		<div class="post2">
+			<h2 class="title2">七嘴八舌。。。。</h2>
+			
+   				<p id="biaobai1">无论你在何时，无论你在何处，无论你做什么;请记住：我永远支持你，无时无刻不着你，因为你是我最爱的人!!!</p> 
+				<hr size="12 "/> 
+                
+		        <p id="biaobai2">要不是因为爱着你,怎么会夜深还没睡意;要不是因为爱着你,怎会不经意就叹息,全世界只有你不懂我爱你! </p>
+                <hr>
+				 <p id="biaobai1">在你孤独、悲伤的日子里，请你悄悄地念一念我的名字。并且说：有人在怀念我，在世上我活在一个人的心里。</p>
+				 
+				 
+			
+		</div>
+	
+</div>       
+<form action="232.jsp" id="textfrme">
+     
+	   <textarea  id="texts">亲，你想说些什么。。。。</textarea>
+	   <br /> <br />
+     <input type="submit" value="发帖" style="font-size:24px" style="padding-left:150px" />
+</form>
+<div id="footer">
+	<p><font size="5px" face="宋体">西安电子科技大学软件学院2010级web方向三班第2小组 <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+</div>
+<!-- end #footer -->
+
+</html>
+<span style="display:none;"><a href="http://sc.chinaz.com" title="http://sc.chinaz.com">http://sc.chinaz.com</a></span>

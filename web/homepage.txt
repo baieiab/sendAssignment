@@ -1,0 +1,119 @@
+下面是主页jsp代码   homepage.jsp
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Blogging
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20090208
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+
+<title>校园交友网</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div>
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="individual.jsp">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<!-- end #login -->
+	</div>
+	<!-- end #header -->
+	<div id="logo">
+		<h1><a href="#">校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
+	</div>
+
+	<!-- end #logo -->
+<!-- end #header-wrapper -->
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h2 class="title">表白墙</h2>
+			<div class="entry">
+   				<p class="biaobai1">我认识你，我永远记得你，那时候，你还很年轻，人人都说你很美，现在，我是特为来告诉你，对我来说，你比年轻时还要美，我爱你如今凋残的容貌胜过你昔日的红颜。
+               </p>   
+		        <p class="biaobai2">世界因为有你而变的如此美丽，生活因为有你而变得如此充实，生命因为有你而变得如此有意义!
+                </p>
+				 <p class="biaobai1">我终于发现，这世界上有丰厚的爱，我不能辜负。于是我想对你说，我爱你，请你倾听……与你相识是一种缘，与你相恋是一种美，与你相伴是一种福，我愿和你相伴到永远。</p>
+			</div>
+		</div>
+		<div class="post">
+			<h2 class="title">学校彩影</h2>
+			<div >
+			   <img src="pictures/d1.jpg" width="600" height="250">
+                <table height="300px" width="600px">
+				  <tr>
+				     <td><img src="pictures/2p.jpg" height="250" width="200"></td>
+					 <td><img src="pictures/sp.jpg" height="250" width="200"></td>
+					 <td><img src="pictures/s1p.jpg"height="250" width="200"></td>
+				  <tr>
+				 </table>
+			</div>
+		</div>	
+	</div>
+	<!-- end #content -->
+	<div id="sidebar">
+		<div style="background:url(111.jpg)">
+			<p><h2>登录入口</h2></p>
+              <form action="" method="post">
+			    <font size="+1" color="#CC0000">账号 </font><input type="text" name="ID" style="font-size:19px"><br/>
+				<br />
+                <font size="+1" color="#CC0000">密码 </font><input type="password" name="passwd" style="font-size:20px">
+				<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" style="font-size:20px"value="登录" />
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" style="font-size:20px" value="注册"/>
+               </form>
+		</div>
+		        <br />
+				
+			    <div style="background:url(111.jpg)" style="border-left-style:double" style="width:150px">
+				    <h2>排行榜</h2>
+				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李冲 </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;杨松 </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;茂良 </a></p>
+				</div>
+			  <br />
+				<ul style="background:url(eg_bg_03.gif)">
+				   <h2 >友情链接</h2>
+					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="楷体">西电睿思</font></a></li>
+					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="楷体">思源兵马俑</font></a></li>
+					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="楷体">三航四方</font></a></li>
+					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="楷体">爱在西外</font></a></li>
+					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="楷体">师大路</font></a></li>
+					</ul>
+	</div>
+	<!-- end #sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #page -->
+
+<div id="footer">
+	<p><font size="5px" face="宋体">西安电子科技大学软件学院2010级web方向三班第2小组 <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+</div>
+<!-- end #footer -->
+</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>
+<span style="display:none;"><a href="http://sc.chinaz.com" title="http://sc.chinaz.com">http://sc.chinaz.com</a></span>

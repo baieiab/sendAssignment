@@ -1,0 +1,55 @@
+下面是登录成功页面jsp代码： loginnormal.jsp
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Blogging
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20090208
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>登录成功</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="individual.jsp">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<!-- end #login -->
+	</div>
+	<script>
+	
+	  window.alert("登陆成功！");
+	
+	</script>
+	<!-- end #header -->
+	<div id="logo">
+		<h1><a href="#">校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
+	</div>
+	 </br></br>
+<form id="textfrme">		   
+      <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎您使用校园交友网。。。</p>
+	  <br />
+	  <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="rw">5秒后页面自动返回，或点击此处进入个人中心。。。。</a></p>
+</form>>
+  </body>
+</html>

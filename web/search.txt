@@ -1,0 +1,290 @@
+下面是搜索好友页面代码：Search.jsp
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Blogging
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20090208
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>搜索好友</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div>
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="#">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<!-- end #login -->
+	</div>
+	<!-- end #header -->
+	<div id="logo">
+		<h1><a>校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
+	</div>
+ </div>
+     
+	<!-- end #logo -->
+<!-- end #header-wrapper -->
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h2 class="title">你的TA在哪儿。。。</h2>
+			<div class="entry">
+			    <h2> 简单搜索</h2>
+				<br />
+   				<p><label for="ID号"style="font-size:large"><font color="#FF0000" face="楷体" size="+2">&nbsp;&nbsp;账号:</label>
+			    <input type="text" style="font-size:20px" name="denglu" id="login"/> <input type="submit" value="Search" 
+				style="font:Georgia, 'Times New Roman', Times, serif" style="font-size:24px"></p>	            
+				<p><h2>高级搜索</h2></p>
+				 <p><font size="+2" face="楷体" color="#FF00FF">&nbsp;&nbsp;性别：</font>
+				 <input type="radio"  value="man" name="man" /><font size="+1" color="#000000">男&nbsp;&nbsp;</font>
+				 <input type="radio" value="famle" name="famle"/><font size="+1" color="#000000">女</font>
+                          </p>
+				 <p><font size="+2" face="楷体" color="#FF00FF">&nbsp;&nbsp;年级：</font>
+				 <select id="meSele1" name="grade">
+                       <option id="SeleFont1">大一</option>
+                       <option id="SeleFont1">大二</option>
+					   <option id="SeleFont1">大三</option>
+					   <option id="SeleFont1">大四</option>
+                  </select></p>
+				 <p><font size="+2" face="楷体" color="#FF00FF">&nbsp;&nbsp;学校：</font>
+				 <input type="text" style="font-size:20px" id="school" name="school"/>
+				 </p>
+				 <p><font size="+2" face="楷体" color="#FF00FF">&nbsp;&nbsp;年龄：</font>
+				 <input type="text" style="font-size:20px" id="school" name="school"/>
+				 </p><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="马上找TA" style="font-size:24px" onclick="SearchFriends.jsp"/>
+				  <br />
+				  <br />
+			</div>
+		</div>
+		<div class="post">
+			<h2 class="title">学校彩影</h2>
+			<div >
+			   <img src="pictures/d1.jpg" width="600" height="250">
+                <table height="300px" width="600px">
+				  <tr>
+				     <td><img src="pictures/2p.jpg" height="250" width="200"> </td>
+					 <td><img src="pictures/sp.jpg" height="250" width="200"></td>
+					 <td><img src="pictures/s1p.jpg"height="250" width="200"></td>
+				  <tr>
+				 </table>
+			</div>
+		</div>	
+	</div>
+	<!-- end #content -->
+	<div id="sidebar">
+				<h2>我的信息</h2>
+				<p><font size="+2" color="#666666" face="楷体">姓名：&nbsp;<a href="123.jsp">李冲</a></p><br />
+				<p><font size="+2" color="#666666" face="楷体">学校：&nbsp;<a href="123.jsp">西电</a></p><br />
+				<p><font size="+2" color="#666666" face="楷体">性别：&nbsp;男</p><br />
+				<p><font size="+2" color="#666666" face="楷体">年级：&nbsp;大三</p><br />
+				<p><font size="+2" color="#666666" face="楷体">年龄：&nbsp;20</p><br />
+			
+		        
+			    <div style="background:url(111.jpg)" style="border-left-style:double" style="width:150px">
+				    <h2>排行榜</h2>
+				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX1 </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX2 </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX3 </a></p>
+				</div>
+			  <br />
+				<ul style="background:url(eg_bg_03.gif)">
+				    <h2>友情链接</h2>
+					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="楷体">西电睿思</font></a></li>
+					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="楷体">思源兵马俑</font></a></li>
+					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="楷体">三航四方</font></a></li>
+					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="楷体">爱在西外</font></a></li>
+					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="楷体">师大路</font></a></li>
+					</ul>
+	</div>
+	<!-- end #sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #page -->
+
+<div id="footer">
+	<p><font size="5px" face="宋体">西安电子科技大学软件学院2010级web方向三班第2小组 <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+</div>
+<!-- end #footer -->
+</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>
+<span style="display:none;"><a href="http://sc.chinaz.com" title="http://sc.chinaz.com">http://sc.chinaz.com</a></span>
+
+下面是普通搜索好友jsp代码：SearchFriends.jsp
+<%@ page language="java" import="java.sql.*"  pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>       
+    <title>搜索好友</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+  </head>  
+  <body style="margin-top: 50px" style="padding: 0">
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="#">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logo">
+		<h1><a>校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</em></p>
+	</div>		   
+	<%
+	    //获取用户信息
+		try{
+	      String   idcard=request.getParameter("ID");  
+	    //到数据库验证
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/account","root","1314521");
+		String sql = "select * from userinfo"; 
+		Statement stat = conn.createStatement();
+		ResultSet rst = stat.executeQuery(sql);
+		while(rst.next())
+		{
+		      int     card = rst.getInt("Idcard");
+		      if(card==idcard)
+		    %>
+			<form id="textfrme">
+		      <p><font size="+2" color="#666666" face="楷体">姓名：<%out.println(name); %></font></p>  
+		      <p><font size="+2" color="#666666" face="楷体">学校：<%out.println(uni); %></font></p>  
+		      <p><font size="+2" color="#666666" face="楷体">性别：<%out.println(xing); %></font></p> 
+		      <p><font size="+2" color="#666666" face="楷体">年龄：<%out.println(ag); %></font></p> 
+		      <p><font size="+2" color="#666666" face="楷体">年级：<%out.println(gra); %></font></p> 
+			  </form>
+		  <%  
+		  rst.close();
+		  stat.close();
+		  conn.close();
+		}
+		}catch(SQLException e)
+		{
+		            out.print("数据库链接出错！！");
+		}
+	%>
+  </body>
+</html>
+
+
+下面是高级搜索好友jsp代码：SearchFriends.jsp
+<%@ page language="java" import="java.sql.*"  pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>       
+    <title>搜索好友</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+  </head>  
+  <body style="margin-top: 50px" style="padding: 0">
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="#">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logo">
+		<h1><a>校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</em></p>
+	</div>		   
+	<%
+	    //获取用户信息
+		try{
+	       String  sex1 = request.getParameter("sex");
+		   String  gra1  = request.getParameter("grade");
+		   String  ag1   = request.getParameter("age");
+		   String  uni1  = request.getParameter("univer");
+	    //到数据库验证
+		  Class.forName("com.mysql.jdbc.Driver").newInstance();
+		  Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/account","root","1314521");
+		  String sql = "select * from userinfo"; 
+		  Statement stat = conn.createStatement();
+		  ResultSet rst = stat.executeQuery(sql);
+		  
+		  ///提取变量。。
+		  String  uni2 = rst.getString("univer");
+		  String  sex2 = rst.getString("sex");	
+		  String  gra2 = rst.getString("grade");
+		  String  ag2  = rst.getString("age");
+		  
+		 while(rst.next())
+		  {
+		     //从数据库中才层层查找。。。		      
+
+		      if(sex1.equals(sex2)&&gra1.equals(gra2)&&uni1.eqials(uni2)&&ag1.equals(ag2))
+			  {
+			   
+		    %>
+		      <p><font size="+2" color="#666666" face="楷体">姓名：<%out.println(name); %></font></p>  
+		      <p><font size="+2" color="#666666" face="楷体">学校：<%out.println(uni); %></font></p>  
+		      <p><font size="+2" color="#666666" face="楷体">性别：<%out.println(xing); %></font></p> 
+		      <p><font size="+2" color="#666666" face="楷体">年龄：<%out.println(ag); %></font></p> 
+		      <p><font size="+2" color="#666666" face="楷体">年级：<%out.println(gra); %></font></p> 
+		  <% 
+		  } 
+		  rst.close();
+		  stat.close();
+		  conn.close();
+		}
+		}catch(SQLException e)
+		{
+		            out.print("数据库链接出错！！");
+		}
+
+	%>
+  </body>
+</html>

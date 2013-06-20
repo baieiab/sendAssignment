@@ -1,0 +1,103 @@
+下面是登录出错页面jsp代码：loginerror.jsp
+<%@ page contentType="text/html; charset=gb2312"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Blogging
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20090208
+
+-->
+<script type="text/javascript">
+var duration=3900;
+var timer=null;
+var endTime = new Date().getTime() + duration + 100;
+function interval()
+{
+ var n=(endTime-new Date().getTime())/1000;
+ if(n<0) return;
+ document.getElementById("timeout").innerHTML = n.toFixed(4);
+ setTimeout(interval, 10);
+}
+window.onload=function()
+{
+ timer=setTimeout("homepge.jsp", duration);
+ interval();
+}
+//-->
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>登录失败</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">页面导航</a></li>
+				<li><a href="#">搜索好友</a></li>
+				<li><a href="#">论坛贴吧</a></li>
+				<li><a href="#">校园风采</a></li>
+				<li><a href="individual.jsp">个人中心</a></li>
+		        <li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<!-- end #login -->
+	</div>
+	
+	<%
+	    //获取用户信息
+		try{
+	      String   idnum =request.getParameter("ID");
+		  String    psw  = request.getParameter("password");
+	    //到数据库验证
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/account","root","1314521");
+		String sql = "select * from password"; 
+		Statement stat = conn.createStatement();
+		ResultSet rst = stat.executeQuery(sql);
+		while(rst.next())
+		{
+		      int     card = rst.getInt("Idcard");
+			  String  passw = rst.getString("password");
+		      if(card!=idcard||passw.equals(psw))
+			  {%>
+    	     <script>
+	              window.alert("对不起，密码错误。。");
+	         </script>
+			  <%
+			   }
+			  esle
+			     response.sendRedirect("loginnoamal.jsp");
+		  rst.close();
+		  stat.close();
+		  conn.close();
+		}
+		}catch(SQLException e)
+		{
+		            out.print("数据库链接出错！！");
+		}
+
+	%>
+	<!-- end #header -->
+	<div id="logo">
+		<h1><a href="#">校园交友网</a></h1>
+		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
+	</div>
+	 </br></br>
+<form id="textfrme">		   
+      <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对不起，密码或是账号错误。。</p>
+	  <br />
+	  <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="rw">5秒后页面自动返回，或是点击此处重新登录。。。。</a></p>
+</form>>
+  </body>
+</html>
