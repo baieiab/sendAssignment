@@ -1,4 +1,4 @@
-ÏÂÃæÊÇµÇÂ¼³É¹¦Ò³Ãæjsp´úÂë£º loginnormal.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Â¼ï¿½É¹ï¿½Ò³ï¿½ï¿½jspï¿½ï¿½ï¿½ë£º loginnormal.jsp
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -14,7 +14,7 @@ Released   : 20090208
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>µÇÂ¼³É¹¦</title>
+<title>ï¿½ï¿½Â¼ï¿½É¹ï¿½</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -24,12 +24,12 @@ Released   : 20090208
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="individual.jsp">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="individual.jsp">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
@@ -37,19 +37,26 @@ Released   : 20090208
 	</div>
 	<script>
 	
-	  window.alert("µÇÂ½³É¹¦£¡");
+	  window.alert("ï¿½ï¿½Â½ï¿½É¹ï¿½ï¿½ï¿½");
 	
 	</script>
 	<!-- end #header -->
+	
+	/*
+      æ˜¾ç¤ºä¸€çº§å¯¼èˆªæ¡ï¼Œæç¤ºç™»é™†æˆåŠŸ
+       */
 	<div id="logo">
-		<h1><a href="#">Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
 	</div>
 	 </br></br>
 <form id="textfrme">		   
-      <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;»¶Ó­ÄúÊ¹ÓÃÐ£Ô°½»ÓÑÍø¡£¡£¡£</p>
+      <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ï¿½Ó­ï¿½ï¿½Ê¹ï¿½ï¿½Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</p>
 	  <br />
-	  <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="rw">5ÃëºóÒ³Ãæ×Ô¶¯·µ»Ø£¬»òµã»÷´Ë´¦½øÈë¸öÈËÖÐÐÄ¡£¡£¡£¡£</a></p>
+	  <p align="center" id="loginfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="rw">5ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></p>
 </form>>
   </body>
 </html>
+    /*
+      è½¬è·³ç•Œé¢ï¼Œæç¤ºç™»é™†æˆåŠŸï¼Œäº”ç§’åŽè½¬è·³è‡³ä¸»é¡µæˆ–ç‚¹å‡»è¿”å›žä¸»é¡µ
+   */
