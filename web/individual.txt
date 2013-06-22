@@ -1,4 +1,4 @@
-ÏÂÃæÊÇ¸öÈËÖ÷Ò³jsp´úÂë£ºindividual.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Ò³jspï¿½ï¿½ï¿½ë£ºindividual.jsp
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -15,7 +15,7 @@ Released   : 20090208
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=gb2312" />
-<title>¸öÈËÖ÷Ò³</title>
+<title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -25,20 +25,26 @@ Released   : 20090208
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="#">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
 		<!-- end #login -->
 	</div>
 	<!-- end #header -->
+	
+	/*
+         ä¸€çº§å¯¼èˆªï¼Œ
+       ä¸»è¦å†…å®¹åŒ…æ‹¬æœç´¢å¥½å‹ã€è®ºå›è´´å§ä¸Žæ ¡å›­é£Žé‡‡ä¸Žè”ç³»æˆ‘ä»¬
+      */
+      
 	<div id="logo">
-		<h1><a>Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a>Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</em></p>
 	</div>
 
@@ -48,19 +54,19 @@ Released   : 20090208
 <div id="page">
 	<div id="content">
 		<div class="post">
-			<h2 class="title">±í°×Ç½</h2>
+			<h2 class="title">ï¿½ï¿½ï¿½ï¿½Ç½</h2>
 			<div class="entry">
-   				<p class="biaobai1">ÎÞÂÛÄãÔÚºÎÊ±£¬ÎÞÂÛÄãÔÚºÎ´¦£¬ÎÞÂÛÄã×öÊ²Ã´;Çë¼Ç×¡£ºÎÒÓÀÔ¶Ö§³ÖÄã£¬ÎÞÊ±ÎÞ¿Ì²»×ÅÄã£¬ÒòÎªÄãÊÇÎÒ×î°®µÄÈË!!!</p>  
+   				<p class="biaobai1">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úºï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚºÎ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´;ï¿½ï¿½ï¿½ï¿½×¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶Ö§ï¿½ï¿½ï¿½ã£¬ï¿½ï¿½Ê±ï¿½Þ¿Ì²ï¿½ï¿½ï¿½ï¿½ã£¬ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î°®ï¿½ï¿½ï¿½ï¿½!!!</p>  
                 
-		        <p class="biaobai2">Òª²»ÊÇÒòÎª°®×ÅÄã,ÔõÃ´»áÒ¹Éî»¹Ã»Ë¯Òâ;Òª²»ÊÇÒòÎª°®×ÅÄã,Ôõ»á²»¾­Òâ¾ÍÌ¾Ï¢,È«ÊÀ½çÖ»ÓÐÄã²»¶®ÎÒ°®Äã! </p>
+		        <p class="biaobai2">Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½Ã´ï¿½ï¿½Ò¹ï¿½î»¹Ã»Ë¯ï¿½ï¿½;Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½á²»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾Ï¢,È«ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ã²»ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½! </p>
                
-				 <p class="biaobai1">ÔÚÄã¹Â¶À¡¢±¯ÉËµÄÈÕ×ÓÀï£¬ÇëÄãÇÄÇÄµØÄîÒ»ÄîÎÒµÄÃû×Ö¡£²¢ÇÒËµ£ºÓÐÈËÔÚ»³ÄîÎÒ£¬ÔÚÊÀÉÏÎÒ»îÔÚÒ»¸öÈËµÄÐÄÀï¡£</p>
+				 <p class="biaobai1">ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ö¡ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ï¿½ï¿½Ò£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¡£</p>
 				 
 				 
 			</div>
 		</div>
 		<div class="post">
-			<h2 class="title">Ñ§Ð£²ÊÓ°</h2>
+			<h2 class="title">Ñ§Ð£ï¿½ï¿½Ó°</h2>
 			<div >
 			   <img src="pictures/d1.jpg" width="600" height="200">
                 <table>
@@ -75,36 +81,51 @@ Released   : 20090208
 		</div>	
 	</div>
 	<!-- end #content -->
+	
+	/*
+      æ ¡å›­å½©å½±æ¨¡å—ï¼Œå±•ç¤ºç…§ç‰‡åŒºåŸŸ
+
+       */
 	<div id="sidebar">
-				<h2>¸öÈËÐÅÏ¢</h2>
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÐÕÃû£º&nbsp;<a href="123.jsp">Àî³å</a></p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">Ñ§Ð££º&nbsp;<a href="123.jsp">Î÷µç</a></p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÐÔ±ð£º&nbsp;ÄÐ</p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">Äê¼¶£º&nbsp;´óÈý</p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÄêÁä£º&nbsp;20</p><br />
+				<h2>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢</h2>
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&nbsp;<a href="123.jsp">ï¿½ï¿½ï¿½ï¿½</a></p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">Ñ§Ð£ï¿½ï¿½&nbsp;<a href="123.jsp">ï¿½ï¿½ï¿½ï¿½</a></p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½Ô±ï¿½ï¿½ï¿½&nbsp;ï¿½ï¿½</p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ê¼¶ï¿½ï¿½&nbsp;ï¿½ï¿½ï¿½ï¿½</p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ä£º&nbsp;20</p><br />
 			    <div style="background:url(111.jpg)" style="border-left-style:double" style="width:150px">
-				  <h2>ÅÅÐÐ°ñ</h2>
-				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Àî³åer </a></p>
-				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ÀÏ°å </a></p>
-				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ã¯Á¼ </a></p>
+				  <h2>ï¿½ï¿½ï¿½Ð°ï¿½</h2>
+				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ï¿½ï¿½ï¿½er </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½Ï°ï¿½ </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ã¯ï¿½ï¿½ </a></p>
 				</div>
+				
+				/*
+                                   æ ¡å›­å½©å½±æ¨¡å—ï¼Œå±•ç¤ºç…§ç‰‡åŒºåŸŸ
+
+                               */
 			  <br />
 				<ul style="background:url(eg_bg_03.gif)">
-				    <h2>ÓÑÇéÁ´½Ó</h2>
-					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Î÷µçî£Ë¼</font></a></li>
-					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ë¼Ô´±øÂíÙ¸</font></a></li>
-					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Èýº½ËÄ·½</font></a></li>
-					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="¿¬Ìå">°®ÔÚÎ÷Íâ</font></a></li>
-					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ê¦´óÂ·</font></a></li>
+				    <h2>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h2>
+					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼</font></a></li>
+					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ë¼Ô´ï¿½ï¿½ï¿½ï¿½Ù¸</font></a></li>
+					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½</font></a></li>
+					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</font></a></li>
+					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ê¦ï¿½ï¿½Â·</font></a></li>
 					</ul>
 	</div>
 	<!-- end #sidebar -->
+	
+	 /*
+           å‹æƒ…é“¾æŽ¥
+
+          */
 	<div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end #page -->
 
 <div id="footer">
-	<p><font size="5px" face="ËÎÌå">Î÷°²µç×Ó¿Æ¼¼´óÑ§Èí¼þÑ§Ôº2010¼¶web·½ÏòÈý°àµÚ2Ð¡×é <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+	<p><font size="5px" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿Æ¼ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ñ§Ôº2010ï¿½ï¿½webï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2Ð¡ï¿½ï¿½ <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
 </div>
 <!-- end #footer -->
 </body>
