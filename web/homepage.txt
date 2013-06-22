@@ -1,10 +1,10 @@
-ÏÂÃæÊÇÖ÷Ò³jsp´úÂë   homepage.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³jspï¿½ï¿½ï¿½ï¿½   homepage.jsp
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
-
+ã€ã€
 Name       : Blogging
 Description: A two-column, fixed-width design for 1024x768 screen resolutions.
 Version    : 1.0
@@ -16,7 +16,7 @@ Released   : 20090208
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=gb2312" />
 
-<title>Ð£Ô°½»ÓÑÍø</title>
+<title>Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -26,12 +26,12 @@ Released   : 20090208
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="individual.jsp">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="individual.jsp">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
@@ -39,7 +39,7 @@ Released   : 20090208
 	</div>
 	<!-- end #header -->
 	<div id="logo">
-		<h1><a href="#">Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
 	</div>
 
@@ -49,17 +49,17 @@ Released   : 20090208
 <div id="page">
 	<div id="content">
 		<div class="post">
-			<h2 class="title">±í°×Ç½</h2>
+			<h2 class="title">ï¿½ï¿½ï¿½ï¿½Ç½</h2>
 			<div class="entry">
-   				<p class="biaobai1">ÎÒÈÏÊ¶Äã£¬ÎÒÓÀÔ¶¼ÇµÃÄã£¬ÄÇÊ±ºò£¬Äã»¹ºÜÄêÇá£¬ÈËÈË¶¼ËµÄãºÜÃÀ£¬ÏÖÔÚ£¬ÎÒÊÇÌØÎªÀ´¸æËßÄã£¬¶ÔÎÒÀ´Ëµ£¬Äã±ÈÄêÇáÊ±»¹ÒªÃÀ£¬ÎÒ°®ÄãÈç½ñµò²ÐµÄÈÝÃ²Ê¤¹ýÄãÎôÈÕµÄºìÑÕ¡£
+   				<p class="biaobai1">ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Çµï¿½ï¿½ã£¬ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ã»¹ï¿½ï¿½ï¿½ï¿½ï¿½á£¬ï¿½ï¿½ï¿½Ë¶ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½Ã²Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÕµÄºï¿½ï¿½Õ¡ï¿½
                </p>   
-		        <p class="biaobai2">ÊÀ½çÒòÎªÓÐÄã¶ø±äµÄÈç´ËÃÀÀö£¬Éú»îÒòÎªÓÐÄã¶ø±äµÃÈç´Ë³äÊµ£¬ÉúÃüÒòÎªÓÐÄã¶ø±äµÃÈç´ËÓÐÒâÒå!
+		        <p class="biaobai2">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!
                 </p>
-				 <p class="biaobai1">ÎÒÖÕÓÚ·¢ÏÖ£¬ÕâÊÀ½çÉÏÓÐ·áºñµÄ°®£¬ÎÒ²»ÄÜ¹¼¸º¡£ÓÚÊÇÎÒÏë¶ÔÄãËµ£¬ÎÒ°®Äã£¬ÇëÄãÇãÌý¡­¡­ÓëÄãÏàÊ¶ÊÇÒ»ÖÖÔµ£¬ÓëÄãÏàÁµÊÇÒ»ÖÖÃÀ£¬ÓëÄãÏà°éÊÇÒ»ÖÖ¸££¬ÎÒÔ¸ºÍÄãÏà°éµ½ÓÀÔ¶¡£</p>
+				 <p class="biaobai1">ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½ï¿½Ä°ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½Ò°ï¿½ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½Ò»ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éµ½ï¿½ï¿½Ô¶ï¿½ï¿½</p>
 			</div>
 		</div>
 		<div class="post">
-			<h2 class="title">Ñ§Ð£²ÊÓ°</h2>
+			<h2 class="title">Ñ§Ð£ï¿½ï¿½Ó°</h2>
 			<div >
 			   <img src="pictures/d1.jpg" width="600" height="250">
                 <table height="300px" width="600px">
@@ -75,33 +75,33 @@ Released   : 20090208
 	<!-- end #content -->
 	<div id="sidebar">
 		<div style="background:url(111.jpg)">
-			<p><h2>µÇÂ¼Èë¿Ú</h2></p>
+			<p><h2>ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½</h2></p>
               <form action="" method="post">
-			    <font size="+1" color="#CC0000">ÕËºÅ </font><input type="text" name="ID" style="font-size:19px"><br/>
+			    <font size="+1" color="#CC0000">ï¿½Ëºï¿½ </font><input type="text" name="ID" style="font-size:19px"><br/>
 				<br />
-                <font size="+1" color="#CC0000">ÃÜÂë </font><input type="password" name="passwd" style="font-size:20px">
+                <font size="+1" color="#CC0000">ï¿½ï¿½ï¿½ï¿½ </font><input type="password" name="passwd" style="font-size:20px">
 				<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" style="font-size:20px"value="µÇÂ¼" />
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" style="font-size:20px"value="ï¿½ï¿½Â¼" />
 			&nbsp;&nbsp;&nbsp;&nbsp;
-			<input type="submit" style="font-size:20px" value="×¢²á"/>
+			<input type="submit" style="font-size:20px" value="×¢ï¿½ï¿½"/>
                </form>
 		</div>
 		        <br />
 				
 			    <div style="background:url(111.jpg)" style="border-left-style:double" style="width:150px">
-				    <h2>ÅÅÐÐ°ñ</h2>
-				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Àî³å </a></p>
-				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ÑîËÉ </a></p>
-				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ã¯Á¼ </a></p>
+				    <h2>ï¿½ï¿½ï¿½Ð°ï¿½</h2>
+				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ï¿½ï¿½ï¿½ </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ï¿½ï¿½ï¿½ï¿½ </a></p>
+				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ã¯ï¿½ï¿½ </a></p>
 				</div>
 			  <br />
 				<ul style="background:url(eg_bg_03.gif)">
-				   <h2 >ÓÑÇéÁ´½Ó</h2>
-					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Î÷µçî£Ë¼</font></a></li>
-					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ë¼Ô´±øÂíÙ¸</font></a></li>
-					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Èýº½ËÄ·½</font></a></li>
-					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="¿¬Ìå">°®ÔÚÎ÷Íâ</font></a></li>
-					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ê¦´óÂ·</font></a></li>
+				   <h2 >ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h2>
+					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼</font></a></li>
+					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ë¼Ô´ï¿½ï¿½ï¿½ï¿½Ù¸</font></a></li>
+					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½</font></a></li>
+					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</font></a></li>
+					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ê¦ï¿½ï¿½Â·</font></a></li>
 					</ul>
 	</div>
 	<!-- end #sidebar -->
@@ -110,7 +110,7 @@ Released   : 20090208
 <!-- end #page -->
 
 <div id="footer">
-	<p><font size="5px" face="ËÎÌå">Î÷°²µç×Ó¿Æ¼¼´óÑ§Èí¼þÑ§Ôº2010¼¶web·½ÏòÈý°àµÚ2Ð¡×é <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+	<p><font size="5px" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿Æ¼ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ñ§Ôº2010ï¿½ï¿½webï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2Ð¡ï¿½ï¿½ <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
 </div>
 <!-- end #footer -->
 </div>
