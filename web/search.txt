@@ -1,4 +1,4 @@
-ÏÂÃæÊÇËÑË÷ºÃÓÑÒ³Ãæ´úÂë£ºSearch.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ë£ºSearch.jsp
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
@@ -15,7 +15,7 @@ Released   : 20090208
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>ËÑË÷ºÃÓÑ</title>
+<title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -25,62 +25,80 @@ Released   : 20090208
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="#">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
 		<!-- end #login -->
 	</div>
 	<!-- end #header -->
+	
+	/*
+       ä¸€çº§å¯¼èˆªï¼Œ
+       ä¸»è¦å†…å®¹åŒ…æ‹¬æœç´¢å¥½å‹ã€è®ºå›è´´å§ä¸Žæ ¡å›­é£Žé‡‡ä¸Žè”ç³»æˆ‘ä»¬
+       */
 	<div id="logo">
-		<h1><a>Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a>Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</a></em></p>
 	</div>
  </div>
      
 	<!-- end #logo -->
+	/*
+      ç‰ˆå¤´è®¾ç½®
+
+      */
+
 <!-- end #header-wrapper -->
 
 <div id="page">
 	<div id="content">
 		<div class="post">
-			<h2 class="title">ÄãµÄTAÔÚÄÄ¶ù¡£¡£¡£</h2>
+			<h2 class="title">ï¿½ï¿½ï¿½ï¿½TAï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h2>
 			<div class="entry">
-			    <h2> ¼òµ¥ËÑË÷</h2>
+			    <h2> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h2>
 				<br />
-   				<p><label for="IDºÅ"style="font-size:large"><font color="#FF0000" face="¿¬Ìå" size="+2">&nbsp;&nbsp;ÕËºÅ:</label>
+   				<p><label for="IDï¿½ï¿½"style="font-size:large"><font color="#FF0000" face="ï¿½ï¿½ï¿½ï¿½" size="+2">&nbsp;&nbsp;ï¿½Ëºï¿½:</label>
 			    <input type="text" style="font-size:20px" name="denglu" id="login"/> <input type="submit" value="Search" 
-				style="font:Georgia, 'Times New Roman', Times, serif" style="font-size:24px"></p>	            
-				<p><h2>¸ß¼¶ËÑË÷</h2></p>
-				 <p><font size="+2" face="¿¬Ìå" color="#FF00FF">&nbsp;&nbsp;ÐÔ±ð£º</font>
-				 <input type="radio"  value="man" name="man" /><font size="+1" color="#000000">ÄÐ&nbsp;&nbsp;</font>
+				style="font:Georgia, 'Times New Roman', Times, serif" style="font-size:24px"></p>
+				/*
+                                 ç®€å•æœç´¢â€”â€”æŒ‰ç…§è´¦å·æœç´¢
+
+                                */
+				<p><h2>ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½</h2></p>
+				 <p><font size="+2" face="ï¿½ï¿½ï¿½ï¿½" color="#FF00FF">&nbsp;&nbsp;ï¿½Ô±ï¿½ï¿½ï¿½</font>
+				 <input type="radio"  value="man" name="man" /><font size="+1" color="#000000">ï¿½ï¿½&nbsp;&nbsp;</font>
 				 <input type="radio" value="famle" name="famle"/><font size="+1" color="#000000">Å®</font>
                           </p>
-				 <p><font size="+2" face="¿¬Ìå" color="#FF00FF">&nbsp;&nbsp;Äê¼¶£º</font>
+				 <p><font size="+2" face="ï¿½ï¿½ï¿½ï¿½" color="#FF00FF">&nbsp;&nbsp;ï¿½ê¼¶ï¿½ï¿½</font>
 				 <select id="meSele1" name="grade">
-                       <option id="SeleFont1">´óÒ»</option>
-                       <option id="SeleFont1">´ó¶þ</option>
-					   <option id="SeleFont1">´óÈý</option>
-					   <option id="SeleFont1">´óËÄ</option>
+                       <option id="SeleFont1">ï¿½ï¿½Ò»</option>
+                       <option id="SeleFont1">ï¿½ï¿½ï¿½ï¿½</option>
+					   <option id="SeleFont1">ï¿½ï¿½ï¿½ï¿½</option>
+					   <option id="SeleFont1">ï¿½ï¿½ï¿½ï¿½</option>
                   </select></p>
-				 <p><font size="+2" face="¿¬Ìå" color="#FF00FF">&nbsp;&nbsp;Ñ§Ð££º</font>
+				 <p><font size="+2" face="ï¿½ï¿½ï¿½ï¿½" color="#FF00FF">&nbsp;&nbsp;Ñ§Ð£ï¿½ï¿½</font>
 				 <input type="text" style="font-size:20px" id="school" name="school"/>
 				 </p>
-				 <p><font size="+2" face="¿¬Ìå" color="#FF00FF">&nbsp;&nbsp;ÄêÁä£º</font>
+				 <p><font size="+2" face="ï¿½ï¿½ï¿½ï¿½" color="#FF00FF">&nbsp;&nbsp;ï¿½ï¿½ï¿½ä£º</font>
 				 <input type="text" style="font-size:20px" id="school" name="school"/>
 				 </p><br />
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="ÂíÉÏÕÒTA" style="font-size:24px" onclick="SearchFriends.jsp"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½TA" style="font-size:24px" onclick="SearchFriends.jsp"/>
 				  <br />
 				  <br />
 			</div>
 		</div>
+		/*
+                   é«˜çº§æœç´¢â€”â€”æŒ‰ç…§æ€§åˆ«ã€å¹´çº§ã€å­¦æ ¡æ¥æœç´¢
+ 
+                   */
 		<div class="post">
-			<h2 class="title">Ñ§Ð£²ÊÓ°</h2>
+			<h2 class="title">Ñ§Ð£ï¿½ï¿½Ó°</h2>
 			<div >
 			   <img src="pictures/d1.jpg" width="600" height="250">
                 <table height="300px" width="600px">
@@ -94,38 +112,51 @@ Released   : 20090208
 		</div>	
 	</div>
 	<!-- end #content -->
+	/*
+            æ ¡å›­å½©å½±æ¨¡å—ï¼Œå±•ç¤ºç…§ç‰‡åŒºåŸŸ
+
+        */
 	<div id="sidebar">
-				<h2>ÎÒµÄÐÅÏ¢</h2>
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÐÕÃû£º&nbsp;<a href="123.jsp">Àî³å</a></p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">Ñ§Ð££º&nbsp;<a href="123.jsp">Î÷µç</a></p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÐÔ±ð£º&nbsp;ÄÐ</p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">Äê¼¶£º&nbsp;´óÈý</p><br />
-				<p><font size="+2" color="#666666" face="¿¬Ìå">ÄêÁä£º&nbsp;20</p><br />
+				<h2>ï¿½Òµï¿½ï¿½ï¿½Ï¢</h2>
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&nbsp;<a href="123.jsp">ï¿½ï¿½ï¿½ï¿½</a></p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">Ñ§Ð£ï¿½ï¿½&nbsp;<a href="123.jsp">ï¿½ï¿½ï¿½ï¿½</a></p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½Ô±ï¿½ï¿½ï¿½&nbsp;ï¿½ï¿½</p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ê¼¶ï¿½ï¿½&nbsp;ï¿½ï¿½ï¿½ï¿½</p><br />
+				<p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ä£º&nbsp;20</p><br />
 			
 		        
 			    <div style="background:url(111.jpg)" style="border-left-style:double" style="width:150px">
-				    <h2>ÅÅÐÐ°ñ</h2>
+			    /*
+                            æˆ‘çš„ä¿¡æ¯â€”â€”åŒ…æ‹¬å§“åã€å­¦æ ¡ã€æ€§åˆ«ã€å¹´çº§ã€å¹´é¾„
+
+                          */
+				    <h2>ï¿½ï¿½ï¿½Ð°ï¿½</h2>
 				   <p style="font-size:24px" style="color:#00FF99"> &nbsp;&nbsp;<a href="XXXX1.jsp">TOP1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX1 </a></p>
 				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX2.jsp">TOP2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX2 </a></p>
 				   <p style="font-size:24px" style="color:#00FF00"> &nbsp;&nbsp;<a href="XXXX3.jsp">TOP3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXX3 </a></p>
 				</div>
 			  <br />
 				<ul style="background:url(eg_bg_03.gif)">
-				    <h2>ÓÑÇéÁ´½Ó</h2>
-					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Î÷µçî£Ë¼</font></a></li>
-					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ë¼Ô´±øÂíÙ¸</font></a></li>
-					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Èýº½ËÄ·½</font></a></li>
-					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="¿¬Ìå">°®ÔÚÎ÷Íâ</font></a></li>
-					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="¿¬Ìå">Ê¦´óÂ·</font></a></li>
+				    <h2>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</h2>
+					<li><a href="http://rs.xidian.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼</font></a></li>
+					<li><a href="http://bbs.xjtu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ë¼Ô´ï¿½ï¿½ï¿½ï¿½Ù¸</font></a></li>
+					<li><a href="http://bbs.nwpu.edu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½</font></a></li>
+					<li><a href="http://www.ixisu.com/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</font></a></li>
+					<li><a href="http://www.shidalu.cn/"><font color="#0066FF" size="+3" face="ï¿½ï¿½ï¿½ï¿½">Ê¦ï¿½ï¿½Â·</font></a></li>
 					</ul>
 	</div>
+	
+	 /*
+         å‹æƒ…é“¾æŽ¥
+
+            */
 	<!-- end #sidebar -->
 	<div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end #page -->
 
 <div id="footer">
-	<p><font size="5px" face="ËÎÌå">Î÷°²µç×Ó¿Æ¼¼´óÑ§Èí¼þÑ§Ôº2010¼¶web·½ÏòÈý°àµÚ2Ð¡×é <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
+	<p><font size="5px" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿Æ¼ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ñ§Ôº2010ï¿½ï¿½webï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2Ð¡ï¿½ï¿½ <a href="https://github.com/web124/sendAssignment/">web124Assignment</a>.</p>
 </div>
 <!-- end #footer -->
 </div>
@@ -133,7 +164,7 @@ Released   : 20090208
 </html>
 <span style="display:none;"><a href="http://sc.chinaz.com" title="http://sc.chinaz.com">http://sc.chinaz.com</a></span>
 
-ÏÂÃæÊÇÆÕÍ¨ËÑË÷ºÃÓÑjsp´úÂë£ºSearchFriends.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jspï¿½ï¿½ï¿½ë£ºSearchFriends.jsp
 <%@ page language="java" import="java.sql.*"  pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
@@ -143,7 +174,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>       
-    <title>ËÑË÷ºÃÓÑ</title>
+    <title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
@@ -156,24 +187,28 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="#">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 	</div>
+		 /*
+        ç‰ˆå¤´è®¾ç½®
+
+        */
 	<div id="logo">
-		<h1><a>Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a>Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</em></p>
 	</div>		   
 	<%
-	    //»ñÈ¡ÓÃ»§ÐÅÏ¢
+	    //èŽ·å–ç”¨æˆ·ä¿¡æ¯
 		try{
 	      String   idcard=request.getParameter("ID");  
-	    //µ½Êý¾Ý¿âÑéÖ¤
+	    //åˆ°æ•°æ®åº“éªŒè¯
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/account","root","1314521");
 		String sql = "select * from userinfo"; 
@@ -185,27 +220,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		      if(card==idcard)
 		    %>
 			<form id="textfrme">
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÐÕÃû£º<%out.println(name); %></font></p>  
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">Ñ§Ð££º<%out.println(uni); %></font></p>  
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÐÔ±ð£º<%out.println(xing); %></font></p> 
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÄêÁä£º<%out.println(ag); %></font></p> 
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">Äê¼¶£º<%out.println(gra); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<%out.println(name); %></font></p>  
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">Ñ§Ð£ï¿½ï¿½<%out.println(uni); %></font></p>  
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½Ô±ï¿½ï¿½ï¿½<%out.println(xing); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ä£º<%out.println(ag); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ê¼¶ï¿½ï¿½<%out.println(gra); %></font></p> 
 			  </form>
 		  <%  
 		  rst.close();
 		  stat.close();
 		  conn.close();
 		}
+		 /*
+                 æ˜¾ç¤ºæœç´¢ç»“æžœ
+
+                 */
 		}catch(SQLException e)
 		{
-		            out.print("Êý¾Ý¿âÁ´½Ó³ö´í£¡£¡");
+		            out.print("ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
+		 /*
+           æ•æ‰æ•°æ®åº“è¿žæŽ¥é”™è¯¯å¹¶ç»™å‡ºæç¤º
+
+              */
 	%>
   </body>
 </html>
+ 	/*
+         æ™®é€šæœç´¢ç»“æžœçš„ç•Œé¢
 
+       */
 
-ÏÂÃæÊÇ¸ß¼¶ËÑË÷ºÃÓÑjsp´úÂë£ºSearchFriends.jsp
+ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jspï¿½ï¿½ï¿½ë£ºSearchFriends.jsp
 <%@ page language="java" import="java.sql.*"  pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
@@ -215,7 +261,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>       
-    <title>ËÑË÷ºÃÓÑ</title>
+    <title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
@@ -228,34 +274,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="header">
 		<div id="menu">
 			<ul>
-				<li class="current_page_item"><a href="#">Ò³Ãæµ¼º½</a></li>
-				<li><a href="#">ËÑË÷ºÃÓÑ</a></li>
-				<li><a href="#">ÂÛÌ³Ìù°É</a></li>
-				<li><a href="#">Ð£Ô°·ç²É</a></li>
-				<li><a href="#">¸öÈËÖÐÐÄ</a></li>
-		        <li><a href="#">ÁªÏµÎÒÃÇ</a></li>
+				<li class="current_page_item"><a href="#">Ò³ï¿½æµ¼ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">Ð£Ô°ï¿½ï¿½ï¿½ï¿½</a></li>
+				<li><a href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
+		        <li><a href="#">ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½</a></li>
 			</ul>
 		</div>
 	</div>
+	 /*
+        ç‰ˆå¤´è®¾ç½®
+
+        */
 	<div id="logo">
-		<h1><a>Ð£Ô°½»ÓÑÍø</a></h1>
+		<h1><a>Ð£Ô°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></h1>
 		<p style="font-size:16px" style="color:#CCCCCC"><em>We are students, we have only one goal and that is to make more friends</em></p>
 	</div>		   
 	<%
-	    //»ñÈ¡ÓÃ»§ÐÅÏ¢
+	    //èŽ·å–ç”¨æˆ·ä¿¡æ¯
 		try{
 	       String  sex1 = request.getParameter("sex");
 		   String  gra1  = request.getParameter("grade");
 		   String  ag1   = request.getParameter("age");
 		   String  uni1  = request.getParameter("univer");
-	    //µ½Êý¾Ý¿âÑéÖ¤
+	    //åˆ°æ•°æ®åº“éªŒè¯
 		  Class.forName("com.mysql.jdbc.Driver").newInstance();
 		  Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/account","root","1314521");
 		  String sql = "select * from userinfo"; 
 		  Statement stat = conn.createStatement();
 		  ResultSet rst = stat.executeQuery(sql);
+		 // æå–å˜é‡
 		  
-		  ///ÌáÈ¡±äÁ¿¡£¡£
 		  String  uni2 = rst.getString("univer");
 		  String  sex2 = rst.getString("sex");	
 		  String  gra2 = rst.getString("grade");
@@ -263,28 +313,41 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		  
 		 while(rst.next())
 		  {
-		     //´ÓÊý¾Ý¿âÖÐ²Å²ã²ã²éÕÒ¡£¡£¡£		      
+		     ////ä»Žæ•°æ®åº“ä¸­æ‰å±‚å±‚æŸ¥æ‰¾	      
 
 		      if(sex1.equals(sex2)&&gra1.equals(gra2)&&uni1.eqials(uni2)&&ag1.equals(ag2))
 			  {
 			   
 		    %>
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÐÕÃû£º<%out.println(name); %></font></p>  
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">Ñ§Ð££º<%out.println(uni); %></font></p>  
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÐÔ±ð£º<%out.println(xing); %></font></p> 
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">ÄêÁä£º<%out.println(ag); %></font></p> 
-		      <p><font size="+2" color="#666666" face="¿¬Ìå">Äê¼¶£º<%out.println(gra); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<%out.println(name); %></font></p>  
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">Ñ§Ð£ï¿½ï¿½<%out.println(uni); %></font></p>  
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½Ô±ï¿½ï¿½ï¿½<%out.println(xing); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ä£º<%out.println(ag); %></font></p> 
+		      <p><font size="+2" color="#666666" face="ï¿½ï¿½ï¿½ï¿½">ï¿½ê¼¶ï¿½ï¿½<%out.println(gra); %></font></p> 
 		  <% 
 		  } 
 		  rst.close();
 		  stat.close();
 		  conn.close();
 		}
+		/*
+                æ˜¾ç¤ºæœç´¢ç»“æžœ
+ 
+               */
 		}catch(SQLException e)
 		{
-		            out.print("Êý¾Ý¿âÁ´½Ó³ö´í£¡£¡");
+		            out.print("ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
+		 /*
+           æ•æ‰æ•°æ®åº“è¿žæŽ¥é”™è¯¯å¹¶ç»™å‡ºæç¤º
+
+ */
 
 	%>
   </body>
 </html>
+
+       /*
+       é«˜çº§æœç´¢ç»“æžœç•Œé¢
+ 
+      */
